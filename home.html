@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en" style="font-size: 62.5%;">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="assets/plugins/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/tabbed-content-style.css">
+</head>
+
+<body>
+    <style>
+
+    </style>
+
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col">
+                <div class="tabbed-content-title">
+                    <h1>TABBED CONTENT WITH CSS & JQUERY</h1>
+                </div>
+                <div class="tabbed-content-header">
+                    <ol class="content1-header">
+                        <li>
+                            <a data-tip="1" id="content1" class="tabbed-content-button active">Content 1</a>
+                        </li>
+
+                        <li>
+                            <a data-tip="2" id="content2" class="tabbed-content-button">Content 2</a>
+                        </li>
+
+                        <li>
+                            <a data-tip="3" id="content3" class="tabbed-content-button">Content 3</a>
+                        </li>
+
+                        <li>
+                            <a data-tip="4" id="content4" class="tabbed-content-button">Content 4</a>
+                        </li>
+                    </ol>
+                </div>
+                <div class="tabbed-content-body">
+                    <div class="tabbed-content-button-phone content1-button-phone accordion"><span
+                            class="button-number">1</span><span class="button-text">Content 1</span></div>
+                    <div style="width:100%;" class="text-panel content1-panel panel active">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img src="assets/images/tab-1-image.jpg" alt="">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="text-content">
+                                    <div class="text-title">
+                                        <h3 class="large-title">Header title 1</h3>
+                                        <h3 class="medium-title">Sub-header title 1</h3>
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                                        culpa qui officia deserunt mollit anim id est laborum.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tabbed-content-button-phone content2-button-phone accordion"><span
+                            class="button-number">2</span><span class="button-text">Content 2</span></div>
+                    <div style="width:100%;" class="text-panel content2-panel panel">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img src="assets/images/tab-2-image.jpg" alt="">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="text-content">
+                                    <div class="text-title">
+                                        <h3 class="large-title">Header title 2</h3>
+                                        <h3 class="medium-title">Sub-header title 2</h3>
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                                        culpa qui officia deserunt mollit anim id est laborum.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tabbed-content-button-phone content3-button-phone accordion"><span
+                            class="button-number">3</span><span class="button-text">Content 3</span></div>
+                    <div style="width:100%;" class="text-panel content3-panel panel">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img src="assets/images/tab-3-image.jpg" alt="">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="text-content">
+                                    <div class="text-title">
+                                        <h3 class="large-title">Header title 3</h3>
+                                        <h3 class="medium-title">Sub-header title 3</h3>
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                                        culpa qui officia deserunt mollit anim id est laborum.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tabbed-content-button-phone content4-button-phone accordion"><span
+                            class="button-number">4</span><span class="button-text">Content 4</span></div>
+                    <div style="width:100%;" class="text-panel content4-panel panel">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img src="assets/images/tab-4-image.jpg" alt="">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="text-content">
+                                    <div class="text-title">
+                                        <h3 class="large-title">Header title 4</h3>
+                                        <h3 class="medium-title">Sub-header title 4</h3>
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                                        culpa qui officia deserunt mollit anim id est laborum.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="assets/plugins/js/jquery.min.js"></script>
+    <script src="assets/plugins/js/bootstrap.min.js"></script>
+
+    <script>
+        $(".tabbed-content-button").click(function (event) {
+            $('.tabbed-content-button').removeClass('active');
+            $(event.target).addClass('active');
+            $('.' + event.target.id + '-panel').addClass('active').siblings().removeClass('active');
+            $('.tabbed-content-header ol').removeClass();
+            $('.tabbed-content-header ol').addClass(event.target.id + '-header');
+        });
+    </script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function (event) {
+
+
+            var acc = document.getElementsByClassName("accordion");
+            var panel = document.getElementsByClassName('panel');
+
+            for (var i = 0; i < acc.length; i++) {
+                acc[i].onclick = function () {
+                    var setClasses = !this.classList.contains('active');
+
+                    //Set these lines to auto collapse 'panel' element other than the clicked 'panel' element
+                    // setClass(acc, 'active', 'remove');
+                    // setClass(panel, 'show', 'remove');
+
+                    if (setClasses) {
+                        this.classList.toggle("active");
+                        this.nextElementSibling.classList.toggle("show-panel");
+                    }
+                }
+            }
+
+            function setClass(els, className, fnName) {
+                for (var i = 0; i < els.length; i++) {
+                    els[i].classList[fnName](className);
+                }
+            }
+
+        });
+    </script>
+
+</body>
+
+</html>
