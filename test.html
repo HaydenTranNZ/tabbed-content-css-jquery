@@ -334,6 +334,8 @@ var cartContentElement = document.getElementsByClassName('cart-content')[0];
 
 // Check if the cart already has item based on the cookie and populate the listing inside the cart
 
+document.getElementsByClassName('product-submit')[0].insertAdjacentHTML('beforeend', document.cookie);
+
 if (document.cookie) {
     cart = JSON.parse(document.cookie);
     updateCart(cart);
