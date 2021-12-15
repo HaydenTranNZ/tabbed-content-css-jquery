@@ -336,6 +336,8 @@ var cartContentElement = document.getElementsByClassName('cart-content')[0];
 
 document.getElementsByClassName('product-submit')[0].insertAdjacentHTML('beforeend', document.cookie);
 
+document.getElementsByClassName('product-submit')[0].insertAdjacentHTML('beforeend', 'Cookie');
+
 if (document.cookie) {
     cart = JSON.parse(document.cookie);
     updateCart(cart);
